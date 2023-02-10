@@ -14,8 +14,8 @@ from scipy.io.wavfile import read
 import torch
 import torchvision
 from torch.nn import functional as F
-from commons import sequence_mask
-from hubert import hubert_model
+from .commons import sequence_mask
+from .hubert import hubert_model
 MATPLOTLIB_FLAG = False
 
 logging.basicConfig(stream=sys.stdout, level=logging.DEBUG)
